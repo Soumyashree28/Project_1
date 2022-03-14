@@ -1,0 +1,10 @@
+#!/bin/bash
+a= "30 30 40 80"
+big = 0
+echo $a
+for i in $a
+do
+if [ $i > $big ]
+then big = $i
+fi
+
