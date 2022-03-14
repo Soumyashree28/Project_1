@@ -1,0 +1,10 @@
+#!/bin/bash
+a = " 45 50 48 60"
+var = 1
+for i in $a
+do
+length = $var
+var = `expr $var + 1`
+done
+echo "the length of an array is $length"
+
