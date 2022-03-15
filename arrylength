@@ -7,4 +7,4 @@ length = $var
 var = `expr $var + 1`
 done
 echo "the length of an array is $length"
-
+hello how are you
